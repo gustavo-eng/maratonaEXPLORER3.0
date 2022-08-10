@@ -1,0 +1,124 @@
+:root {
+    --cor-topicosH2: rgb(113, 113, 9);
+  
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+  
+    background-color: rgb(232, 232, 144);
+    font-family: 'Lexend', sans-serif;
+  
+  }
+  
+  
+  img {
+    display: flex;
+    border-radius: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+  
+  ul {
+    list-style: nonef;
+  }
+  
+  header {
+    padding: 32px 0;
+    text-align: center;
+  }
+  
+  header,
+  section {
+    max-width: 300px;
+    /*border: 1px solid salmon; */
+    margin: 0 auto;
+  }
+  
+  header h1 span{
+    color: var(--cor-topicosH2);
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+  section {
+    margin-bottom:  24px;
+  }
+  section h2 {
+    /*border: 1px solid salmon; */
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 8px 16px;
+    text-align: center;
+  
+  
+    margin-bottom: 24px;
+  }
+  
+  
+  h2 {
+    color: var(--cor-topicosH2);
+  }
+  
+  
+  ul li {
+    margin-bottom: 16px;
+    display: flex;
+  }
+  
+  .price {
+    color: var(--cor-topicosH2);
+    font-weight: bolder;
+    /*border: 1px solid salmon;*/
+  
+  }
+  
+  li .details {
+    max-width: 240px;
+  }
+  
+  .details h3 {
+    margin-bottom: 11px;
+  }
+  
+  
+  .bebidas {
+    width: 240px;
+  }
+  
+  
+  button {
+    margin-top: 17px;
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background:yellow;
+    border-color: rgb(200, 200, 7);
+    margin-left: 80px;
+    cursor: pointer;
+    
+  }
+  
+  h4 {
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  
+  .details p {
+    color: var(--cor-topicosH2);
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  
+  
+  
+  
+  
+  
